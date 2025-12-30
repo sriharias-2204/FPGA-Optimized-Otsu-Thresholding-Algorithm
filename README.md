@@ -38,7 +38,7 @@ Markdown## 🛠️ Getting Started
 ### Execution Flow
 1. **Prepare Data:** Run the Python script to convert your image to a `.hex` file.
    ```bash
-   python python/image_prep.py
+   python python/front.py
 Simulate RTL: Load the RTL and Testbench into your simulator. Ensure image_in.hex is in the simulation directory.Verify: Compare the threshold output in the simulator console with the Python output. 
 
 ### Results
