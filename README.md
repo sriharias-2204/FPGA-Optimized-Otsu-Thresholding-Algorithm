@@ -42,6 +42,10 @@ Markdown## 🛠️ Getting Started
 Simulate RTL: Load the RTL and Testbench into your simulator. Ensure image_in.hex is in the simulation directory.Verify: Compare the threshold output in the simulator console with the Python output. 
 
 ### Results
-Image      Python(Golden)  Hardware(RTL)  Status
+Image => Cameraman
 
-Cameraman       86              86         Pass
+Python Result => 86
+
+System-Verilog Result => 86
+
+Status => Pass
