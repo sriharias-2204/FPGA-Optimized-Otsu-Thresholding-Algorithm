@@ -10,15 +10,25 @@ A synthesizable SystemVerilog implementation of the Otsu Image Thresholding algo
 
 ## Repository Structure
 ├── rtl/
+
 │   └── otsu_thresholding_fpga.sv  # Main RTL Module
+
 ├── tb/
+
 │   └── otsu_tb.sv                 # SystemVerilog Testbench
+
 ├── python/
-│   ├── image_prep.py              # Image to Hex converter & OpenCV Golden Model
-│   └── input_image.jpg            # Sample test image
+
+│   ├── front.py              # Image to Hex converter & OpenCV Golden Model
+
+│   └── image.png            # Sample test image
+
 ├── docs/
+
 │   └── report.pdf                 # Detailed Technical Report
+
 └── README.md
+
 Markdown## 🛠️ Getting Started
 
 ### Prerequisites
@@ -33,4 +43,5 @@ Simulate RTL: Load the RTL and Testbench into your simulator. Ensure image_in.he
 
 ### Results
 Image      Python(Golden)  Hardware(RTL)  Status
+
 Cameraman       86              86         Pass
